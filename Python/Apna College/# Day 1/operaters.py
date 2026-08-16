@@ -1,5 +1,6 @@
 # there are some reserved words (keywords) which we cant use as a identifier
 #This is used for single lined comment
+#the multi lined comment is used for documentation purpose of multiplr lines
 
 
 ''' This is a multi line comments
