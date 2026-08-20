@@ -1,12 +1,7 @@
-print("hello world")
-print("run using shortcut key")
+name = "farhan"
+string = f"hi there , my name is {name}"
+print(string)
 
-#python -m venv .venv
-#the above command is used to make the environment for the python using the terminal
-
-import requests
-
-response = requests.get("https://api.github.com")
-
-print(response.status_code)
-print(response.json())
+#string methods
+string.replace("hi", "hey")
+print(string)
