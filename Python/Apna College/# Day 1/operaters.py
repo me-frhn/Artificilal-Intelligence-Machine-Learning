@@ -27,12 +27,12 @@ print(sum)
 #Arithmatic Operators
 x=10
 y=2
-print(x+y)
-print(x-y)
-print(x*y)
-print(x/y)
-print(x%y)
-print(x**y)
+print("+ operator is used here",x+y)
+print("- operator is used here",x-y)
+print("*:",x*y)
+print("/ :",x/y)
+print("%",x%y)
+print("**",x**y)
 
 #Relational operators >,<,<=,>=,==,!=
 print(x>y)
