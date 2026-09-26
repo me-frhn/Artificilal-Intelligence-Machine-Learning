@@ -14,3 +14,6 @@ response = requests.get(url)
 data = response.json()
 
 print(data)
+temperature = data['current']['temperature_2m']
+print(f"Temperature in Paris: {temperature}°C")
+# Output: Temperature in Paris: 20.0°C
